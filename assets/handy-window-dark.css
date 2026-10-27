@@ -59,3 +59,8 @@ button.titlebutton:active {
     box-shadow: none;
     border: none;
 }
+
+headerbar:backdrop button.titlebutton {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.08);
+}
