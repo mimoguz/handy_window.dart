@@ -1,5 +1,5 @@
 window {
-    background-color: #191c21
+    background-color: #111319;
 }
 
 window.csd.unified decoration-overlay {
@@ -20,12 +20,12 @@ window.csd.unified decoration:backdrop {
 
 headerbar {
     min-height: 47px;
-    background: #191c21;
+    background: #111319;
     border: none
 }
 
 headerbar:backdrop {
-    background: #191c21;
+    background: #111319;
 }
 
 headerbar .title {
