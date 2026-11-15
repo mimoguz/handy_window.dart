@@ -42,33 +42,50 @@ headerbar:backdrop .title {
   color: rgba(0, 0, 0, 0.3)
 }
 
-button.titlebutton {
+headerbar button.titlebutton {
     padding: 4px;
     margin: 1px;
+    border-radius: 999px;
     color: rgba(0, 0, 0, 0.7);
-    /* background-color: rgba(0, 0, 0, 0.08); */
-    /* background-image: none; */
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.08);
     box-shadow: none;
+    text-shadow: none;
     border: none;
 }
 
-/*
-button.titlebutton:hover {
+headerbar button.titlebutton:hover {
     background-color: rgba(0, 0, 0, 0.16);
     background-image: none;
     box-shadow: none;
+    text-shadow: none;
     border: none;
 }
 
-button.titlebutton:active {
-    background-color: rgba(0, 0, 0, 0.32);
+headerbar button.titlebutton:active {
+    background-color: rgba(0, 0, 0, 0.32); 
     background-image: none;
     box-shadow: none;
+    text-shadow: none;
     border: none;
 }
 
 headerbar:backdrop button.titlebutton {
     color: rgba(0, 0, 0, 0.3);
     background-color: rgba(0, 0, 0, 0.04);
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
 }
-*/
+
+headerbar button.close image {
+    -gtk-icon-source: -gtk-icontheme("window-close-symbolic");
+}
+
+headerbar button.maximize image {
+    -gtk-icon-source: -gtk-icontheme("window-maximize-symbolic");
+}
+
+headerbar.titlebar button.minimize image {
+    -gtk-icon-source: -gtk-icontheme("window-minimize-symbolic");
+}
