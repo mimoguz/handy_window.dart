@@ -46,7 +46,7 @@ button.titlebutton {
     padding: 4px;
     margin: 1px;
     color: rgba(0, 0, 0, 0.7);
-    background-color: rgba(0, 0, 0, 0.08);
+    /* background-color: rgba(0, 0, 0, 0.08); */
     /* background-image: none; */
     box-shadow: none;
     border: none;
