@@ -37,6 +37,7 @@ headerbar:backdrop .title {
   color: rgba(255, 255, 255, 0.3)
 }
 
+/*
 button.titlebutton {
     padding: 4px;
     margin: 1px;
@@ -65,3 +66,4 @@ headerbar:backdrop button.titlebutton {
     color: rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.08);
 }
+*/
