@@ -9,12 +9,12 @@ window.csd.unified decoration-overlay {
 window.csd.unified:not(.solid-csd):not(.fullscreen):not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized),
 window.csd.unified:not(.solid-csd):not(.fullscreen):not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized) > decoration,
 window.csd.unified:not(.solid-csd):not(.fullscreen):not(.tiled):not(.tiled-top):not(.tiled-bottom):not(.tiled-left):not(.tiled-right):not(.maximized) > decoration-overlay {
-  border-radius: 15px;
+    border-radius: 15px;
 }
- 
+
 /* window.csd.unified:not(.solid-csd):not(.fullscreen):not(.maximized) decoration-overlay {
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07)
-} */
+ *   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.07)
+ } * */
 
 window.csd.unified decoration {
     box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0.5)
@@ -24,25 +24,25 @@ window.csd.unified decoration:backdrop {
     box-shadow: 0 3px 9px 1px rgba(0, 0, 0, 0), 0 2px 6px 2px rgba(0, 0, 0, 0.2)
 }
 
-headerbar {
+window.csd.unified headerbar {
     min-height: 47px;
     background: #FAFAFB;
     border: none
 }
 
-headerbar:backdrop {
+window.csd.unified headerbar:backdrop {
     background: #FAFAFB;
 }
 
-headerbar .title {
-  color: rgba(0, 0, 0, 0.7);
+window.csd.unified headerbar .title {
+    color: rgba(0, 0, 0, 0.7);
 }
 
-headerbar:backdrop .title {
-  color: rgba(0, 0, 0, 0.3)
+window.csd.unified headerbar:backdrop .title {
+    color: rgba(0, 0, 0, 0.3)
 }
 
-headerbar button.titlebutton {
+window.csd.unified.env-gnome headerbar button.titlebutton {
     padding: 4px;
     margin: 1px;
     border-radius: 999px;
@@ -54,7 +54,7 @@ headerbar button.titlebutton {
     border: none;
 }
 
-headerbar button.titlebutton:hover {
+window.csd.unified.env-gnome headerbar button.titlebutton:hover {
     background-color: rgba(0, 0, 0, 0.16);
     background-image: none;
     box-shadow: none;
@@ -62,15 +62,15 @@ headerbar button.titlebutton:hover {
     border: none;
 }
 
-headerbar button.titlebutton:active {
-    background-color: rgba(0, 0, 0, 0.32); 
+window.csd.unified.env-gnome headerbar button.titlebutton:active {
+    background-color: rgba(0, 0, 0, 0.32);
     background-image: none;
     box-shadow: none;
     text-shadow: none;
     border: none;
 }
 
-headerbar:backdrop button.titlebutton {
+window.csd.unified.env-gnome headerbar:backdrop button.titlebutton {
     color: rgba(0, 0, 0, 0.3);
     background-color: rgba(0, 0, 0, 0.04);
     box-shadow: none;
@@ -78,14 +78,15 @@ headerbar:backdrop button.titlebutton {
     border: none;
 }
 
-headerbar button.close image {
+window.csd.unified.env-gnome headerbar button.close image {
     -gtk-icon-source: -gtk-icontheme("window-close-symbolic");
 }
 
-headerbar button.maximize image {
+window.csd.unified.env-gnome headerbar button.maximize image {
     -gtk-icon-source: -gtk-icontheme("window-maximize-symbolic");
 }
 
-headerbar.titlebar button.minimize image {
+window.csd.unified.env-gnome headerbar.titlebar button.minimize image,
+window.csd.unified.env-gnome headerbar button.minimize image {
     -gtk-icon-source: -gtk-icontheme("window-minimize-symbolic");
 }
