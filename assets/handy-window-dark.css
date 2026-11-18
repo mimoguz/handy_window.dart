@@ -42,7 +42,7 @@ headerbar:backdrop .title {
     color: rgba(255, 255, 255, 0.3)
 }
 
-headerbar button.titlebutton {
+window.csd.unified headerbar button.titlebutton {
     padding: 4px;
     margin: 1px;
     border-radius: 999px;
@@ -54,7 +54,7 @@ headerbar button.titlebutton {
     border: none;
 }
 
-headerbar button.titlebutton:hover {
+window.csd.unified headerbar button.titlebutton:hover {
     background-color: rgba(255, 255, 255, 0.24);
     background-image: none;
     box-shadow: none;
@@ -62,7 +62,7 @@ headerbar button.titlebutton:hover {
     border: none;
 }
 
-headerbar button.titlebutton:active {
+window.csd.unified headerbar button.titlebutton:active {
     background-color: rgba(255, 255, 255, 0.36);
     background-image: none;
     box-shadow: none;
@@ -70,7 +70,7 @@ headerbar button.titlebutton:active {
     border: none;
 }
 
-headerbar:backdrop button.titlebutton {
+window.csd.unified headerbar:backdrop button.titlebutton {
     color: rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.08);
     box-shadow: none;
@@ -78,15 +78,15 @@ headerbar:backdrop button.titlebutton {
     border: none;
 }
 
-headerbar button.close image {
+window.csd.unified headerbar button.close image {
     -gtk-icon-source: -gtk-icontheme("window-close-symbolic");
 }
 
-headerbar button.maximize image {
+window.csd.unified headerbar button.maximize image {
     -gtk-icon-source: -gtk-icontheme("window-maximize-symbolic");
 }
 
-headerbar.titlebar button.minimize image,
-headerbar button.minimize image {
+window.csd.unified headerbar.titlebar button.minimize image,
+window.csd.unified headerbar button.minimize image {
     -gtk-icon-source: -gtk-icontheme("window-minimize-symbolic");
 }
